@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+
+  <h1>Let's Play Tic Tac Toe!</h1>
+  <label id="switch">
+    <input type="checkbox">
+    <span id='slider' class="slider round"></span>
+  </label>
+  <span id="rotateSwitch"> &nbsp; Rotate Off</span>
+  <h4 id="player1" class='XPlayer'>X Player: </h4>
+  <h4 id="player2" class='OPlayer'>O Player: </h4>
+  <div id="board">
+    <span id="box0"> &nbsp; </span>
+    <span id="box1"> &nbsp; </span>
+    <span id="box2"> &nbsp; </span>
+    <span id="box3"> &nbsp; </span>
+    <span id="box4"> &nbsp; </span>
+    <span id="box5"> &nbsp; </span>
+    <span id="box6"> &nbsp; </span>
+    <span id="box7"> &nbsp; </span>
+    <span id="box8"> &nbsp; </span>
+  </div>
+  <br><br/>
+  <span class="score">
+    <span id="player">X</span>
+    <span id="gamestate">turn</span>
+    <br><br/>
+    <div id="xwins" class='XPlayer'></div>
+    <div id="owins" class='OPlayer'></div>
+    <div>
+      <button id="reset">Reset!</button>
+    </div>
+  </span>
+  <script src='app.js'></script>
+  </body>
+</html>
+
